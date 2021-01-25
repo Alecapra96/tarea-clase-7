@@ -20,7 +20,7 @@ function validarNombre(nombre){
         return "";
     }
 }
-
+validarNombre(nombre);
 function validarCiudad(ciudad){
     if (ciudad === ""){
         return "debes seleccionar algo";
